@@ -1,16 +1,17 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class beecrowd_1005 {
+public class beecrowd_1006 {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 	
 		double a = sc.nextDouble();
 		double b = sc.nextDouble();
-		double  media = (a*3.5)+ (b*7.5);
+		double c = sc.nextDouble();
+		double  media = (a * 2)+ (b * 3) + (c * 5);
 		
-		System.out.printf("PROD = %.5f%n", media/11);
+		System.out.printf("MEDIA = %.1f%n", media/10);
 		
 		sc.close();
 	}
